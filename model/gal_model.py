@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np 
-
 import random
 
 def gal_predictor():
@@ -21,18 +20,4 @@ def gal_predictor():
         metrics=['accuracy']
     )
 
-
-    # import matplotlib.pyplot as plt
-    # plt.imshow(img[0])
-    # plt.show()
-
     return model
-    # model.fit(Train_data, epochs=10)
-    # pred = model.predict(img)
-    # predicted_class = np.argmax(pred) 
-    # class_names = ['Elliptical', 'Spiral', 'Barred Spiral']
-    # print("Predicted Galaxy Type:", class_names[predicted_class])
-
-
-    # loss, accuracy = model.evaluate(Test_data)
-    # print(f"Test Accuracy: {accuracy:.4f}")
