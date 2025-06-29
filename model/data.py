@@ -2,8 +2,6 @@ import os
 import numpy as np
 import tensorflow as tf
 
-import tensorflow as tf
-
 def gal_dataset():
     img_size = (96, 96)
     batch_size = 64
