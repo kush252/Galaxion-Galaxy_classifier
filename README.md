@@ -19,29 +19,19 @@ Trained on astronomical image data resized to **96x96**, the model achieves high
 
 ---
 
+### 📄 Description
+The model learns visual galaxy features and distinguishes structural differences between elliptical, spiral, and barred spiral galaxies. It processes raw image data into a format suitable for deep learning, and outputs class predictions with competitive accuracy.
+
+This project demonstrates practical use of CNNs in astronomy and deep learning image classification, and can be used for academic, educational, or research purposes.
+
+---
+
 ### 🧪 Features
 
 * Custom image preprocessing using `image_dataset_from_directory`
 * Supports prediction on new images
 * Dataset compatible structure and scalable design
 * Includes model saving/loading functionality
-
----
-
-### 🚀 How to Use
-
-```bash
-# Clone and install
-git clone https://github.com/your-username/galaxy-classification.git
-cd galaxy-classification
-pip install -r requirements.txt
-
-
-To predict a new image:
-
-```bash
-python predictor/predict_single_image.py --image path/to/image.jpg
-```
 
 ---
 
